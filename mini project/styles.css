@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .logo-container {
+    width: 100vw;
+    height: 100vh; /* Adjust as needed */
+    background-image: url('images/resized_3P3A1703.jpg'); /* Replace 'your-image.jpg' with your image file */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 60px;
+    font-weight: bold;
+    color: #fff; /* Text color */
+  }
+  
+  .initial {
+    letter-spacing: -5px;
+  }
+  
+  .symbol {
+    vertical-align: top;
+    font-size: 40px;
+  }
