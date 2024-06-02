@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link your CSS file -->
+    <style>
+        /* CSS styling */
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index1.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <h2>Rene's Gallery</h2>
+
+    <h4>some photos ftom things I love most.</h4>
+    
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="images/2257373.jpg">
+          <img src="images/2257373.jpg" alt="ariana grande" width="600" height="400">
+        </a>
+        <div class="desc">No Tears Left To Cry- my fav song</div>
+      </div>
+    </div>
+    
+    
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="images/Bathroom-20240525133533069.jpg">
+          <img src="images/Bathroom-20240525133533069.jpg" alt="upside down museum" width="600" height="400">
+        </a>
+        <div class="desc">my last trip to Amsterdam</div>
+      </div>
+    </div>
+    
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="images/IMG_0008.JPG">
+          <img src="images/IMG_0008.JPG" alt="skitza" width="600" height="400">
+        </a>
+        <div class="desc">recordings with my firs band "skitza"</div>
+      </div>
+    </div>
+    
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="images/IMG_3661.jpeg">
+          <img src="images/IMG_3661.jpeg" alt="my brother's son" width="600" height="400">
+        </a>
+        <div class="desc">the birth party of my brother's son</div>
+      </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="images/IMG_6321.jpeg">
+            <img src="images/IMG_6321.jpeg" alt="SINAI" width="600" height="400">
+          </a>
+          <div class="desc">beautiful SINAI</div>
+        </div>
+      </div>
+
+
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="images/phonto.JPG">
+            <img src="images/phonto.JPG" alt="African me" width="600" height="400">
+          </a>
+          <div class="desc">from my trip in Kenya, Africa</div>
+        </div>
+      </div>
+
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="images/resized_3P3A7627.jpg">
+            <img src="images/resized_3P3A7627.jpg" alt="concerto" width="600" height="400">
+          </a>
+          <div class="desc">music class concert</div>
+        </div>
+      </div>
+
+    <div class="clearfix"></div>
+    
+    <div style="padding:6px;">
+      <p>these cute photos shows who i am for a bit' and there is a lot more to explore in the continue....</p>
+      <p>hope you'll like!</p>
+    </div>
+
+                        <style>nav {
+                            background-color: #333; /* Background color of the navigation bar */
+                        }
+                        
+                        nav ul {
+                            list-style-type: none; /* Remove bullet points from the list */
+                            padding: 0;
+                            margin: 0;
+                        }
+                        
+                        nav li {
+                            display: inline; /* Display list items horizontally */
+                        }
+                        
+                        nav li a {
+                            display: block;
+                            color: white;
+                            text-align: center;
+                            padding: 14px 16px;
+                            text-decoration: none;
+                        }
+                        
+                        nav li a:hover {
+                            background-color: #ddd; /* Change background color on hover */
+                            color: black;
+                        }</style>
+ </body>
+</html>
